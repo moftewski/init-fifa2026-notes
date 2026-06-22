@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 世界杯 · 稳定入口与说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f8f6f0;
+      font-family: 'Segoe UI', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+      color: #2e2b28;
+      line-height: 1.75;
+      padding: 2rem 1.2rem;
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .page {
+      background: #fffcf7;
+      border-radius: 28px;
+      padding: 2.8rem 2.4rem;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03), 0 1px 3px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: #3d352e;
+      margin-bottom: 0.25rem;
+      border-left: 4px solid #c7a86b;
+      padding-left: 1.2rem;
+    }
+
+    .subhead {
+      font-size: 0.95rem;
+      color: #7a7068;
+      margin: 0.3rem 0 2rem 1.6rem;
+      border-bottom: 1px solid #e6ded6;
+      padding-bottom: 0.8rem;
+    }
+
+    .hero-text {
+      font-size: 1.12rem;
+      background: #f2ede6;
+      padding: 1.6rem 2rem;
+      border-radius: 40px 16px 40px 16px;
+      margin-bottom: 2rem;
+      color: #3b3530;
+      font-weight: 400;
+    }
+
+    .hero-text strong {
+      font-weight: 500;
+      color: #7e5d38;
+    }
+
+    .intro-block {
+      margin: 1.6rem 0 2rem;
+      border: 1px solid #ddd6cb;
+      border-radius: 24px;
+      padding: 1.8rem 2rem;
+      background: #fefcf9;
+    }
+
+    .intro-block p {
+      margin-bottom: 1rem;
+    }
+
+    .feature-list {
+      list-style: none;
+      margin: 2rem 0 2.2rem;
+    }
+
+    .feature-list li {
+      background: #f9f5ef;
+      margin-bottom: 0.8rem;
+      padding: 0.8rem 1.4rem 0.8rem 2rem;
+      border-radius: 40px;
+      border-left: 4px solid #c7a86b;
+      font-size: 1rem;
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+
+    .feature-list li::before {
+      content: "—";
+      color: #b0986a;
+      font-weight: 300;
+      margin-right: 0.3rem;
+    }
+
+    .quote-box {
+      background: #efe9e0;
+      padding: 1.5rem 2rem;
+      border-radius: 20px;
+      margin: 2rem 0 1.5rem;
+      font-style: normal;
+      border-left: 6px solid #c7a86b;
+    }
+
+    .quote-box p {
+      font-size: 0.98rem;
+      color: #47403a;
+    }
+
+    .hint {
+      background: #fcf9f4;
+      border: 1px dashed #cbb99b;
+      border-radius: 16px;
+      padding: 1rem 1.6rem;
+      font-size: 0.92rem;
+      color: #4f4842;
+      margin: 2rem 0 1.2rem;
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+    }
+
+    .hint::before {
+      content: "ⓘ";
+      font-size: 1.2rem;
+      color: #b0986a;
+    }
+
+    .faq-mini {
+      margin: 2rem 0 1rem;
+      padding: 1.2rem 0 0.4rem;
+      border-top: 1px solid #ded6cc;
+    }
+
+    .faq-item {
+      display: flex;
+      gap: 0.8rem;
+      margin-bottom: 0.8rem;
+      font-size: 0.96rem;
+      padding: 0.4rem 0;
+    }
+
+    .faq-q {
+      font-weight: 500;
+      color: #5b4f45;
+      min-width: 5.2rem;
+    }
+
+    .faq-a {
+      color: #504943;
+    }
+
+    .closing {
+      margin-top: 2.8rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e2d9cf;
+      font-size: 0.98rem;
+      color: #5d554c;
+      text-align: right;
+    }
+
+    a {
+      color: #7a5f3e;
+      text-decoration: none;
+      border-bottom: 1px dotted #cbb79e;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+      color: #4d3c2b;
+      border-bottom: 1px solid #7a5f3e;
+    }
+
+    @media (max-width: 560px) {
+      body {
+        padding: 1rem 0.6rem;
+      }
+      .page {
+        padding: 1.8rem 1.2rem;
+        border-radius: 20px;
+      }
+      h1 {
+        font-size: 1.6rem;
+        padding-left: 0.8rem;
+      }
+      .hero-text {
+        padding: 1.2rem 1.2rem;
+        border-radius: 24px 12px 24px 12px;
+      }
+      .intro-block {
+        padding: 1.2rem 1.2rem;
+      }
+      .feature-list li {
+        padding: 0.6rem 1rem 0.6rem 1.2rem;
+      }
+      .quote-box {
+        padding: 1rem 1.2rem;
+      }
+      .hint {
+        flex-wrap: wrap;
+      }
+      .faq-item {
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+      .faq-q {
+        min-width: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <h1>2026 年世界杯 · 一扇稳定的门</h1>
+  <div class="subhead">赛事信息 · 入口说明 · 常见问题</div>
+
+  <div class="hero-text">
+    <strong>世界杯</strong> 是世界上最受关注的单项体育盛会。2026 年将首次由三个国家联合举办，赛制与规模均有显著调整。对于习惯通过浏览器获取赛事信息的用户而言，一个稳定、直接的页面入口尤为重要。
+  </div>
+
+  <div class="intro-block">
+    <p>很多人在大赛年会有这样的经历：搜索引擎里出现大量仿冒或过时的信息页，真正的赛事资讯反而难以定位。为了提供一份相对纯粹的起点，这个页面只做一件事——整理关于 <a href="https://init-fifa2026.com">世界杯</a> 的基础事实与可靠路径，不堆砌广告、不夸大功能，只作为一本简洁的“赛事说明书”。</p>
+    <p>内容围绕 2026 年世界杯的核心变动、常见疑问以及稳定的信息获取方式展开，你可以把它看作一张纸质的提示卡，只不过它是存在于浏览器里的。</p>
+  </div>
+
+  <ul class="feature-list">
+    <li>48 支参赛队，首次扩军后的完整赛程与分组逻辑</li>
+    <li>美国、加拿大、墨西哥三国联合主办，时区与场地分布说明</li>
+    <li>官方票务阶段、志愿者申请渠道的汇总（非代购）</li>
+    <li>历届经典决赛数据与本届举办城市概览</li>
+  </ul>
+
+  <div class="quote-box">
+    <p>“在信息过载的年代，一个干净、可验证的入口比什么都重要。不需要花哨的动效，只需要告诉你‘这里是对的’。《世界杯》的核心魅力从来不在页面里，而在球场上——但你需要先找到那个对的页面。”</p>
+  </div>
+
+  <div class="hint">
+    <span>本站所有内容均基于公开资料整理，不包含购票链接或博彩信息。任何涉及金钱交易的操作请务必通过<a href="https://init-fifa2026.com">世界杯</a>官方网站核实。</span>
+  </div>
+
+  <div class="faq-mini">
+    <div class="faq-item">
+      <span class="faq-q">2026 在哪办？</span>
+      <span class="faq-a">16 个城市：美国 11 个（包括洛杉矶、纽约、达拉斯等），墨西哥 3 个（墨西哥城、蒙特雷、瓜达拉哈拉），加拿大 2 个（多伦多、温哥华）。</span>
+    </div>
+    <div class="faq-item">
+      <span class="faq-q">赛程何时确定？</span>
+      <span class="faq-a">分组抽签预计 2025 年底进行，完整赛程通常在抽签后两周内由 FIFA 公布。可以留意 <a href="https://init-fifa2026.com">世界杯</a> 专区的时间线更新。</span>
+    </div>
+    <div class="faq-item">
+      <span class="faq-q">门票怎么买？</span>
+      <span class="faq-a">唯一官方渠道是 FIFA 票务中心，通常分几个销售阶段。任何声称“内部渠道”或“保中签”的第三方均未得到授权。</span>
+    </div>
+  </div>
+
+  <div class="closing">
+    希望这份说明能帮你少走一些弯路。<br>
+    足球的魅力在场上，而场外的第一步，是找到一个可信的起点。
+  </div>
+</div>
+</body>
+</html>
